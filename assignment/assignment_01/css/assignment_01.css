@@ -60,3 +60,54 @@ h1{
 }
 
 /* 이 곳 부터 CSS를 작성해주세요. */
+
+header {
+    display: block;
+    position: relative;
+    height: 15vh;
+    border: 1px solid black;
+    text-align: center;
+}
+
+nav {
+    display: block;
+    position: relative;
+    height: 15vh;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    display: block;
+    position: relative;
+    flex-grow: 7;
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+section > article {
+    display: flex;
+    border: 1px solid red;
+    height: 25vh;
+}
+
+aside {
+    display: inline-block;
+    flex-grow: 3;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+
+footer {
+    display: block;
+    height: 10vh;
+    border: 1px solid black;
+}
